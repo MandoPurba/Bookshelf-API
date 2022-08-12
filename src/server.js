@@ -3,8 +3,8 @@ const routes = require('./routes');
 
 const init = async () => {
     const server = Hapi.server({
-        port: process.ENV.PORT || 3000,
-        host: 'localhost',
+        port: process.env.PORT || 3000,
+        host: 'process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0'',
     });
 
     server.route(routes);
