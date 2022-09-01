@@ -1,4 +1,6 @@
-# Bookself-API
+# <a href="https://bookseft-api.herokuapp.com/books" target="_BLANK"> Bookhelf-API </a>
+
+<a href="https://bookseft-api.herokuapp.com/books" target="_BLANK"> Bookhelf-API </a>
 
 ### API dapat menyimpan buku
 > Method : POST <br>
@@ -97,3 +99,7 @@
 >> ?name : `Tampilkan seluruh buku yang mengandung nama berdasarkan nilai yang diberikan pada query ini.` <br>
 >> ?reading : `Bernilai 0 atau 1. Bila 0, maka tampilkan buku yang sedang tidak dibaca (reading: false). Bila 1, maka tampilkan buku yang sedang dibaca (reading: true). Selain itu, tampilkan buku baik sedang dibaca atau tidak.` <br>
 >> ?finished : `Bernilai 0 atau 1. Bila 0, maka tampilkan buku yang sudah belum selesai dibaca (finished: false). Bila 1, maka tampilkan buku yang sudah selesai dibaca (finished: true). Selain itu, tampilkan buku baik yang sudah selesai atau belum dibaca.` <br>
+
+
+## View App
+<a href="https://bookseft-api.herokuapp.com/books" target="_BLANK"> Bookhelf-API </a>
